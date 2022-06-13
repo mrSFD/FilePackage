@@ -18,7 +18,7 @@ func CreateFile() (string){
 		defer file.Close()
 	}
 
-	return "done creating file"
+	return "file successfully created."
 }
 
 func ReadFile() (string){
